@@ -1,6 +1,6 @@
-import { createFakeContact } from '../utils/createFakeContact';
-import { readContacts } from '../utils/createFakeContact';
-import { writeContacts } from '../utils/createFakeContact';
+import { createFakeContact } from '../utils/createFakeContact.js';
+import { readContacts } from '../utils/createFakeContact.js';
+import { writeContacts } from '../utils/createFakeContact.js';
 
 export const addOneContact = async () => {
   let contacts = JSON.parse(await readContacts());

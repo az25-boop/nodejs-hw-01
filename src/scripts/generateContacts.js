@@ -1,5 +1,7 @@
-import { createFakeContact } from '../utils/createFakeContact';
-import { writeContacts } from '../utils/writeContacts';
+import fs from 'fs/promises';
+
+import { createFakeContact } from '../utils/createFakeContact.js';
+import { writeContacts } from '../utils/writeContacts.js';
 
 const generateContacts = async (number) => {
   let data = [];

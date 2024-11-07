@@ -1,5 +1,3 @@
-import fs from 'fs/promises';
-
 import { createFakeContact } from '../utils/createFakeContact.js';
 import { writeContacts } from '../utils/writeContacts.js';
 
